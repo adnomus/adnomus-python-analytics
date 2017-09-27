@@ -226,9 +226,12 @@ class JsonObjectDictProxy(object):
         return json.dumps(data).replace("</", "<\\/")
 
 
-
-import requests
-import sys
+try:
+    import requests
+except:
+    print('Please install the requests package for python')
+    print('command: pip install requests')
+    sys.exit(-1)
 
 class adNomusError(Exception):
     def __init__(self, cmessage=None):
@@ -254,7 +257,6 @@ def set_default_authentication(network,
 
 
 API_BASE='https://api.adnomus.com/api/v1.0/'
-#API_BASE='http://127.0.0.1/api/v1.0/'
 
 def targeting_request(content,
                       num_req_terms=10,

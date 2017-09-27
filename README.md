@@ -11,14 +11,14 @@
 
 
 ## Fasttrack
-Let's face it, documenation and instructions are boring. You can simply clone the repo and run the following command:
+Let's face it, documentation and instructions are boring. You can simply clone the repo and run the following command:
 ```bash
 python example_adnomus_analytics.py
 ```
 
 
 ## Introduction
-adNomus Real-Time AI technologiesdeliver content targeting for advertising, content discovery and contextual search purposes. Our technology enables the instant and detailed matching of web/platform content to relevant 3rd party content (e.g. ads, content recommendations, search results). Our solution delivers within 1ms while guaranteeing user and content privacy. Our targeting capabilities serve web and mobile platforms and support interactive, real-time user experiences (e.g. messaging, chatbots, search).
+adNomus Real-Time AI technologies deliver content targeting for advertising, content discovery and contextual search purposes. Our technology enables the instant and detailed matching of web/platform content to relevant 3rd party content (e.g. ads, content recommendations, search results). Our solution delivers within 1ms while guaranteeing user and content privacy. Our targeting capabilities serve web and mobile platforms and support interactive, real-time user experiences (e.g. messaging, chatbots, search).
 
 This repository contains our Analytics SDK for python. We provide two files:
 * **adnomus_analytics_sdk.py** provides the SDK implementation.
