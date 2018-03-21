@@ -1,7 +1,6 @@
 # adNomus Analytics SDK for Python
 
 ## File Contents
- * Fasttrack
  * Introduction
  * Authentication
  * Content Targeting API
